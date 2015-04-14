@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798385371ADDDE6C002E14C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798385361ADDDE6C002E14C7 /* AppDelegate.swift */; };
+		798385391ADDDE6C002E14C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798385381ADDDE6C002E14C7 /* ViewController.swift */; };
+		7983853C1ADDDE6C002E14C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7983853A1ADDDE6C002E14C7 /* Main.storyboard */; };
+		7983853E1ADDDE6C002E14C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7983853D1ADDDE6C002E14C7 /* Images.xcassets */; };
+		798385411ADDDE6C002E14C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7983853F1ADDDE6C002E14C7 /* LaunchScreen.xib */; };
+		7983854D1ADDDE6C002E14C7 /* Photo_Gallery_App_Tutorial_with_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983854C1ADDDE6C002E14C7 /* Photo_Gallery_App_Tutorial_with_FrameworksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798385471ADDDE6C002E14C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798385291ADDDE6B002E14C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798385301ADDDE6C002E14C7;
+			remoteInfo = "Photo Gallery App Tutorial with Frameworks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		798385311ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Gallery App Tutorial with Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		798385351ADDDE6C002E14C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798385361ADDDE6C002E14C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		798385381ADDDE6C002E14C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7983853B1ADDDE6C002E14C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7983853D1ADDDE6C002E14C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		798385401ADDDE6C002E14C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		798385461ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Gallery App Tutorial with FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7983854B1ADDDE6C002E14C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7983854C1ADDDE6C002E14C7 /* Photo_Gallery_App_Tutorial_with_FrameworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Gallery_App_Tutorial_with_FrameworksTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7983852E1ADDDE6C002E14C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798385431ADDDE6C002E14C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798385281ADDDE6B002E14C7 = {
+			isa = PBXGroup;
+			children = (
+				798385331ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks */,
+				798385491ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests */,
+				798385321ADDDE6C002E14C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798385321ADDDE6C002E14C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798385311ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks.app */,
+				798385461ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798385331ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798385361ADDDE6C002E14C7 /* AppDelegate.swift */,
+				798385381ADDDE6C002E14C7 /* ViewController.swift */,
+				7983853A1ADDDE6C002E14C7 /* Main.storyboard */,
+				7983853D1ADDDE6C002E14C7 /* Images.xcassets */,
+				7983853F1ADDDE6C002E14C7 /* LaunchScreen.xib */,
+				798385341ADDDE6C002E14C7 /* Supporting Files */,
+			);
+			path = "Photo Gallery App Tutorial with Frameworks";
+			sourceTree = "<group>";
+		};
+		798385341ADDDE6C002E14C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798385351ADDDE6C002E14C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798385491ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests */ = {
+			isa = PBXGroup;
+			children = (
+				7983854C1ADDDE6C002E14C7 /* Photo_Gallery_App_Tutorial_with_FrameworksTests.swift */,
+				7983854A1ADDDE6C002E14C7 /* Supporting Files */,
+			);
+			path = "Photo Gallery App Tutorial with FrameworksTests";
+			sourceTree = "<group>";
+		};
+		7983854A1ADDDE6C002E14C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7983854B1ADDDE6C002E14C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798385301ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798385501ADDDE6C002E14C7 /* Build configuration list for PBXNativeTarget "Photo Gallery App Tutorial with Frameworks" */;
+			buildPhases = (
+				7983852D1ADDDE6C002E14C7 /* Sources */,
+				7983852E1ADDDE6C002E14C7 /* Frameworks */,
+				7983852F1ADDDE6C002E14C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Gallery App Tutorial with Frameworks";
+			productName = "Photo Gallery App Tutorial with Frameworks";
+			productReference = 798385311ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		798385451ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798385531ADDDE6C002E14C7 /* Build configuration list for PBXNativeTarget "Photo Gallery App Tutorial with FrameworksTests" */;
+			buildPhases = (
+				798385421ADDDE6C002E14C7 /* Sources */,
+				798385431ADDDE6C002E14C7 /* Frameworks */,
+				798385441ADDDE6C002E14C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798385481ADDDE6C002E14C7 /* PBXTargetDependency */,
+			);
+			name = "Photo Gallery App Tutorial with FrameworksTests";
+			productName = "Photo Gallery App Tutorial with FrameworksTests";
+			productReference = 798385461ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798385291ADDDE6B002E14C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = UpEarly;
+				TargetAttributes = {
+					798385301ADDDE6C002E14C7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					798385451ADDDE6C002E14C7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 798385301ADDDE6C002E14C7;
+					};
+				};
+			};
+			buildConfigurationList = 7983852C1ADDDE6B002E14C7 /* Build configuration list for PBXProject "Photo Gallery App Tutorial with Frameworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 798385281ADDDE6B002E14C7;
+			productRefGroup = 798385321ADDDE6C002E14C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798385301ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks */,
+				798385451ADDDE6C002E14C7 /* Photo Gallery App Tutorial with FrameworksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7983852F1ADDDE6C002E14C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7983853C1ADDDE6C002E14C7 /* Main.storyboard in Resources */,
+				798385411ADDDE6C002E14C7 /* LaunchScreen.xib in Resources */,
+				7983853E1ADDDE6C002E14C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798385441ADDDE6C002E14C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7983852D1ADDDE6C002E14C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798385391ADDDE6C002E14C7 /* ViewController.swift in Sources */,
+				798385371ADDDE6C002E14C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798385421ADDDE6C002E14C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7983854D1ADDDE6C002E14C7 /* Photo_Gallery_App_Tutorial_with_FrameworksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798385481ADDDE6C002E14C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798385301ADDDE6C002E14C7 /* Photo Gallery App Tutorial with Frameworks */;
+			targetProxy = 798385471ADDDE6C002E14C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7983853A1ADDDE6C002E14C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7983853B1ADDDE6C002E14C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7983853F1ADDDE6C002E14C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798385401ADDDE6C002E14C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7983854E1ADDDE6C002E14C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7983854F1ADDDE6C002E14C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798385511ADDDE6C002E14C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Photo Gallery App Tutorial with Frameworks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		798385521ADDDE6C002E14C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Photo Gallery App Tutorial with Frameworks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		798385541ADDDE6C002E14C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Photo Gallery App Tutorial with FrameworksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Gallery App Tutorial with Frameworks.app/Photo Gallery App Tutorial with Frameworks";
+			};
+			name = Debug;
+		};
+		798385551ADDDE6C002E14C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Photo Gallery App Tutorial with FrameworksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Gallery App Tutorial with Frameworks.app/Photo Gallery App Tutorial with Frameworks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7983852C1ADDDE6B002E14C7 /* Build configuration list for PBXProject "Photo Gallery App Tutorial with Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7983854E1ADDDE6C002E14C7 /* Debug */,
+				7983854F1ADDDE6C002E14C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798385501ADDDE6C002E14C7 /* Build configuration list for PBXNativeTarget "Photo Gallery App Tutorial with Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798385511ADDDE6C002E14C7 /* Debug */,
+				798385521ADDDE6C002E14C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		798385531ADDDE6C002E14C7 /* Build configuration list for PBXNativeTarget "Photo Gallery App Tutorial with FrameworksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798385541ADDDE6C002E14C7 /* Debug */,
+				798385551ADDDE6C002E14C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798385291ADDDE6B002E14C7 /* Project object */;
+}
