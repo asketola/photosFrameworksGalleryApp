@@ -166,16 +166,19 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let image = info.objectForKey("UIImagePickerControllerOriginalImage") as UIImage
 //        let editedImage = info.objectForKey("UIImagePickerControllerEditedImage") as UIImage
         
-        PHPhotoLibrary.sharedPhotoLibrary().performChanges({
-            let createAssetRequest = PHAssetChangeRequest.creationRequestForAssetFromImage(image)
-            let assetPlaceholder = createAssetRequest.placeholderForCreatedAsset
-            let albumChangeRequest = PHAssetCollectionChangeRequest(forAssetCollection: self.assetCollection, assets: self.photosAsset)
-            albumChangeRequest.addAssets([assetPlaceholder])
-        }, completionHandler: { (success, error) -> Void in
-            NSLog("Adding Image to Library -> %@", (success ? "Success" : "Error!"))
-            picker.dismissViewControllerAnimated(true , completion: nil)
+        let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
+        dispatch_async(dispatch_get_global_queue(priority, 0), { () -> Void in
+            PHPhotoLibrary.sharedPhotoLibrary().performChanges({
+                let createAssetRequest = PHAssetChangeRequest.creationRequestForAssetFromImage(image)
+                let assetPlaceholder = createAssetRequest.placeholderForCreatedAsset
+                let albumChangeRequest = PHAssetCollectionChangeRequest(forAssetCollection: self.assetCollection, assets: self.photosAsset)
+                albumChangeRequest.addAssets([assetPlaceholder])
+                }, completionHandler: { (success, error) -> Void in
+                    NSLog("Adding Image to Library -> %@", (success ? "Success" : "Error!"))
+                    picker.dismissViewControllerAnimated(true , completion: nil)
+            })
         })
-        }
+        } // closes imagePickerControllerDelegate function
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         picker.dismissViewControllerAnimated(true , completion: nil)
