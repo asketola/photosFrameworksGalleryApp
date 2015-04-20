@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zpr-7s-lU3">
-                                <rect key="frame" x="8" y="0.0" width="584" height="600"/>
+                                <rect key="frame" x="8" y="8" width="584" height="592"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9px-Ny-uzU">
                                     <size key="itemSize" width="105" height="105"/>
@@ -59,7 +59,7 @@
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBr-Mf-1Sd">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="8" width="600" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="6sp-k0-ZBW"/>
                                 </constraints>
@@ -70,14 +70,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EBr-Mf-1Sd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="6Lz-KU-AO4"/>
+                            <constraint firstItem="EBr-Mf-1Sd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="6Lz-KU-AO4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zpr-7s-lU3" secondAttribute="trailing" constant="-8" id="8lS-1a-O08"/>
                             <constraint firstItem="EBr-Mf-1Sd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="9UD-5a-fp2"/>
                             <constraint firstItem="zpr-7s-lU3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="9YY-Qj-5Xa"/>
                             <constraint firstItem="zpr-7s-lU3" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="B7n-fc-Aek"/>
-                            <constraint firstItem="zpr-7s-lU3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="JmL-Cf-Z87"/>
+                            <constraint firstItem="zpr-7s-lU3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="JmL-Cf-Z87"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EBr-Mf-1Sd" secondAttribute="trailing" constant="-16" id="v6O-qF-SVC"/>
-                            <constraint firstItem="EBr-Mf-1Sd" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="zVS-lt-Swd"/>
+                            <constraint firstItem="EBr-Mf-1Sd" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" constant="8" id="zVS-lt-Swd"/>
                         </constraints>
                     </view>
                     <toolbarItems>
