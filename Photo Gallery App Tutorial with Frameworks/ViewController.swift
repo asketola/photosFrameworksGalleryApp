@@ -153,7 +153,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     //UICollectionViewDelegateFlowLayout Methods
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
-        return 4
+        return 10
     }
     
     
